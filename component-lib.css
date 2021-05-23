@@ -1,18 +1,12 @@
-/* POPPINS */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
 /* MUKTA */
 @import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;700&display=swap");
-/* CABIN */
-@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap");
 
 /*! must before all */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "Poppins", sans-serif; */
   font-family: "Mukta", sans-serif;
-  /* font-family: "Cabin", sans-serif; */
   scroll-behavior: smooth;
   text-decoration: none;
   list-style: none;
@@ -35,25 +29,6 @@ img {
 
 /*! container styling end here */
 
-.output {
-  border: 2px solid black;
-  width: 300px;
-  height: 100px;
-}
-
-/*? logo */
-.logo {
-  font-size: 2.5rem;
-  /* margin-top: 1rem; */
-}
-/*? logo ends here */
-
-/* displayed none coz afterwards here burger will be added*/
-
-ul {
-  display: none;
-}
-
 /*  main title /main heading */
 .heading {
   font-size: 2.625rem;
@@ -73,12 +48,8 @@ ul {
   font-size: 18px;
 }
 
-/*  main title  */
-
 /* button / links */
 .cta {
-  /* padding: 0.5rem; */
-  /* width: 10rem; */
   border-radius: 5px;
   border: none;
   background: #68e1fd;

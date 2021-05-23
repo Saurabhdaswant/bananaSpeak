@@ -13,6 +13,10 @@
   margin: 0.7rem;
 }
 
+.output {
+  border: 2px solid black;
+}
+
 .cta {
   padding: 1rem 5rem;
 }
