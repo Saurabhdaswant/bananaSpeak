@@ -1,0 +1,93 @@
+/* POPPINS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+/* MUKTA */
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;700&display=swap");
+/* CABIN */
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap");
+
+/*! must before all */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Mukta", sans-serif;
+  /* font-family: "Cabin", sans-serif; */
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
+  color: #001833;
+}
+
+/*? always use this  */
+img {
+  max-width: 100%;
+}
+/*! must before all ends here*/
+
+/*! container styling */
+
+.container {
+  padding: 0 1rem;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+/*! container styling end here */
+
+.output {
+  border: 2px solid black;
+  width: 300px;
+  height: 100px;
+}
+
+/*? logo */
+.logo {
+  font-size: 2.5rem;
+  /* margin-top: 1rem; */
+}
+/*? logo ends here */
+
+/* displayed none coz afterwards here burger will be added*/
+
+ul {
+  display: none;
+}
+
+/*  main title /main heading */
+.heading {
+  font-size: 2.625rem;
+  text-transform: uppercase;
+  line-height: 2.7rem;
+  margin-bottom: 1rem;
+}
+
+/*  title */
+.heading_sub--heading {
+  font-size: 1.5625rem;
+  margin-bottom: 1.5rem;
+}
+
+/* subtitle */
+.heading_sub--heading_subtitle {
+  font-size: 18px;
+}
+
+/*  main title  */
+
+/* button / links */
+.cta {
+  /* padding: 0.5rem; */
+  /* width: 10rem; */
+  border-radius: 5px;
+  border: none;
+  background: #68e1fd;
+  text-transform: uppercase;
+}
+
+.cta:hover {
+  background: #65d8f1;
+  transition: 0.5s;
+}
+
+/* button */
