@@ -15,7 +15,9 @@ function getTranslationURL(input) {
 
 function errorHandler(error) {
   console.log("error occured ", error);
-  alert("server is down bruhh");
+  alert(
+    "There's a rate limit of 5 requests for it.. so it might be throwing error , you can try after an hour peace❤"
+  );
 }
 
 function callback() {
